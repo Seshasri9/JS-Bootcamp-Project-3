@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800;900&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    outline: 0ch;
+}
+
+.container{
+    /* display: flex; */
+    background-color: rgb(41, 41, 41);
+    height: 100vh;
+    font-style: Montserrat;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 10px;
+    margin: 0px 20px;
+}
+
+.list{
+    font-size: 15px;
+    display: flex;
+    align-items: center ;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+.list-items{
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    list-style-type: none;
+}
+
+.list-item{
+    font-size: 20px;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(117, 111, 111);
+    list-style-type: none;
+}
+
+.button{
+    font-size: 15px;
+    font-weight: 300;
+    color: rgb(145, 142, 17);
+    border: 2px solid rgb(194, 194, 25);
+    border-radius: 12%;
+    position: absolute;
+    top: 9%;
+    right: 8%;
+    padding: 10px 25px;
+    background-color: rgb(41, 41, 41);
+    cursor: pointer;
+}
+
+.logo{
+    width: 120px;
+    margin-left: 60px;
+}
+
+.Justice-heading{
+    font-size: 70px;
+    color: white;
+    position: absolute;
+    top: 23%;
+    right: 55%;
+    font-weight: bold;
+}
+
+.paragraph{
+font-size: 20px;
+position: absolute;
+top: 28%;
+color: rgb(131, 124, 124);
+right: 12%;
+}
+
+.image2{
+background-image: url(./courtRoom.jpg);
+margin-top: 200px;
+background-size: cover;
+background-position: center;
+height: 50vh;
+}
